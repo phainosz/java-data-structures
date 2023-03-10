@@ -12,7 +12,7 @@ public class DoublyLinkedList {
         length = 1;
     }
 
-    public Node remove(int index) {
+    public Node removeAt(int index) {
         if (index < 0 || index >= length) return null;
 
         if(index == 0) return removeFirst();
@@ -29,7 +29,7 @@ public class DoublyLinkedList {
         return temp;
     }
 
-    public boolean insert(int index, int value) {
+    public boolean insertAt(int index, int value) {
         if(index < 0 || index > length) return false;
 
         if(index == 0) {
@@ -148,17 +148,5 @@ public class DoublyLinkedList {
             temp = temp.next;
         }
         System.out.println();
-    }
-
-    public void getHead() {
-        System.out.println("Head: " + head.value);
-    }
-
-    public void getTail() {
-        System.out.println("Tail: " + tail.value);
-    }
-
-    public void getLength() {
-        System.out.println("Length: " + length);
     }
 }

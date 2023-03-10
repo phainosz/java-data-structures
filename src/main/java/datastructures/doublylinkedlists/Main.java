@@ -21,7 +21,7 @@ public class Main {
         dll.append(2);
         dll.append(3);
 
-        dll.remove(0);
+        dll.removeAt(0);
 
         dll.printList();
     }
@@ -34,7 +34,7 @@ public class Main {
         dll.append(2);
         dll.append(3);
 
-        dll.insert(3, 99);
+        dll.insertAt(3, 99);
 
         dll.printList();
     }

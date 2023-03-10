@@ -39,12 +39,4 @@ public class Stack {
         }
         System.out.println("================================");
     }
-
-    public void getTop() {
-        System.out.println("Top: " + top.value);
-    }
-
-    public void getHeight() {
-        System.out.println("Height: " + height);
-    }
 }

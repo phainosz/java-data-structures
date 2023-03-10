@@ -33,7 +33,7 @@ public class Main {
         linkedList.append(3);
         linkedList.append(4);
 
-        linkedList.remove(1);
+        linkedList.removeAt(1);
 
         //2 items - returns 2 => 4
         linkedList.printList();
@@ -46,7 +46,7 @@ public class Main {
         linkedList.append(3);
         linkedList.append(4);
 
-        linkedList.insert(3, 1);
+        linkedList.insertAt(3, 1);
 
         linkedList.printList();
     }
